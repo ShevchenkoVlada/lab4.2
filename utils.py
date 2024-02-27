@@ -11,12 +11,9 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
-<<<<<<< Updated upstream
-=======
 
 def is_power_of_2(number):
      return (number != 0) and ((number & (number - 1)) == 0)
 
 def is_power_of_5(number):
     return (number != 0) and ((number & (number - 1)) == 0) and (number & 0x55555555 == number)
->>>>>>> Stashed changes
