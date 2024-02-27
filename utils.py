@@ -11,3 +11,6 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
+
+def is_power_of_2(number):
+     return (number != 0) and ((number & (number - 1)) == 0)
